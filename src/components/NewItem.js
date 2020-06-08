@@ -1,46 +1,46 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import uniqueId from 'lodash/uniqueId';
+
+import {addItem} from "../actions";
 
 import './NewItem.css';
 
 class NewItem extends Component {
-  state = {
-    value: '',
-  };
+    state = {
+        value: '',
+    };
 
-  shouldComponentUpdate(newProps, newState) {
-    return this.state.value !== newState.value;
-  }
+    shouldComponentUpdate(newProps, newState) {
+        return this.state.value !== newState.value;
+    }
 
-  handleChange = event => {
-    const value = event.target.value;
-    this.setState({ value });
-  };
+    handleChange = event => {
+        const value = event.target.value;
+        this.setState({value});
+    };
 
-  handleSubmit = event => {
-    const { onSubmit } = this.props;
-    const { value } = this.state;
+    handleSubmit = event => {
+        const {value} = this.state;
+        event.preventDefault();
+        addItem(value);
+        this.setState({value: ''});
+    };
 
-    event.preventDefault();
-    onSubmit({ value, packed: false, id: uniqueId() });
-    this.setState({ value: '' });
-  };
+    render() {
+        const {value} = this.state;
 
-  render() {
-    const { value } = this.state;
-
-    return (
-      <form className="NewItem" onSubmit={this.handleSubmit}>
-        <input
-          className="NewItem-input"
-          type="text"
-          value={value}
-          onChange={this.handleChange}
-        />
-        <input className="NewItem-submit button" type="submit" />
-      </form>
-    );
-  }
+        return (
+            <form className="NewItem" onSubmit={this.handleSubmit}>
+                <input
+                    className="NewItem-input"
+                    type="text"
+                    value={value}
+                    onChange={this.handleChange}
+                />
+                <input className="NewItem-submit button" type="submit"/>
+            </form>
+        );
+    }
 }
 
 export default NewItem;
