@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cbd8f73-80c0-4485-9f97-a1a0c988f529" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/actions/filter-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/filter-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/items-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/items-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/new-item-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/new-item-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/filter-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/filter-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/items-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/items-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/actions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/actions.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reducer.test.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="redux-base" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\OnlineCourses\frontendmasters\AdvancedStateManagementInReact\jetsetter\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1cpsycDGMw50lOoZyD6CwyyjL3G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OnlineCourses\frontendmasters\AdvancedStateManagementInReact\jetsetter\src" />
+      <recent name="D:\OnlineCourses\frontendmasters\AdvancedStateManagementInReact\jetsetter\src\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Combined Reducer.markAllAsUnpacked">
+    <configuration name="Combined Reducer.addNewItem" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/reducer.test.js" />
+      <test-names>
+        <test-name value="Combined Reducer" />
+        <test-name value="addNewItem" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Combined Reducer.markAllAsUnpacked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/reducer.test.js" />
+      <test-names>
+        <test-name value="Combined Reducer" />
+        <test-name value="markAllAsUnpacked" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Combined Reducer.removeItem" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/reducer.test.js" />
+      <test-names>
+        <test-name value="Combined Reducer" />
+        <test-name value="removeItem" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Combined Reducer.should match the initial state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/reducer.test.js" />
+      <test-names>
+        <test-name value="Combined Reducer" />
+        <test-name value="should match the initial state" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Combined Reducer.toggleitem" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/reducer.test.js" />
+      <test-names>
+        <test-name value="Combined Reducer" />
+        <test-name value="toggleitem" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Combined Reducer.markAllAsUnpacked" />
+        <item itemvalue="Jest.Combined Reducer.toggleitem" />
+        <item itemvalue="Jest.Combined Reducer.removeItem" />
+        <item itemvalue="Jest.Combined Reducer.addNewItem" />
+        <item itemvalue="Jest.Combined Reducer.should match the initial state" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cbd8f73-80c0-4485-9f97-a1a0c988f529" name="Default Changelist" comment="" />
+      <created>1591237125001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591237125001</updated>
+      <workItem from="1591237126869" duration="1179000" />
+      <workItem from="1591282268168" duration="16000" />
+      <workItem from="1591315110318" duration="3104000" />
+      <workItem from="1591351454395" duration="5696000" />
+      <workItem from="1591401918298" duration="528000" />
+      <workItem from="1591629990810" duration="655000" />
+      <workItem from="1591630651342" duration="13095000" />
+      <workItem from="1591660526655" duration="4155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1515" height="248" key="GridCell.Tab.0.bottom" timestamp="1591664079497">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="248" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591664079497" />
+    <state width="1515" height="248" key="GridCell.Tab.0.center" timestamp="1591664079497">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="248" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591664079497" />
+    <state width="1515" height="248" key="GridCell.Tab.0.left" timestamp="1591664079497">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="248" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591664079497" />
+    <state width="1515" height="248" key="GridCell.Tab.0.right" timestamp="1591664079497">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="248" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591664079497" />
+    <state x="277" y="74" key="SettingsEditor" timestamp="1591237937556">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1591237937556" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1591635697673">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1591635697673" />
+  </component>
+</project>
